@@ -102,12 +102,10 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
-.navbar-expand-lg .navbar-collapse {
-  display: flex;
-  flex-basis: auto;
-}
+
 .container {
   max-width: 860px;
+  max-height: 50px;
 }
 
 .fixed-top {
@@ -117,7 +115,12 @@ p {
   left: 0;
   z-index: 1030;
 }
-@media (min-width: 992px) .navbar-expand-lg {
-  flex-wrap: nowrap;
-  justify-content: flex-start;
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 38px;
+  }
 }
