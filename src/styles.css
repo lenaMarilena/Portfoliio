@@ -5,7 +5,7 @@
 }
 
 body {
-  margin: 0px auto;
+  margin: auto;
   max-width: 1500px;
   font-weight: 400;
   color: #212529;
@@ -17,7 +17,7 @@ h1,
 h2,
 h3 {
   text-align: center;
-  margin: 20px;
+  margin: 30px;
 }
 
 h1 {
@@ -119,8 +119,13 @@ p {
 @media (max-width: 600px) {
   h1 {
     font-size: 40px;
+    color: #fc5587;
   }
   h2 {
     font-size: 38px;
   }
+}
+nav {
+  position: relative;
+  padding-bottom: 10px;
 }
