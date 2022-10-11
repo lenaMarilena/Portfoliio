@@ -22,6 +22,7 @@ h3 {
 
 h1 {
   font-size: 96px;
+  color: var(--primary-color);
 }
 
 h2 {
@@ -200,4 +201,9 @@ footer {
 .card {
   box-shadow: var(--box-shadow);
   background-color: var(--secondary-color);
+}
+
+.contacto {
+  color: var(--primary-color);
+  font-size: 24px;
 }
