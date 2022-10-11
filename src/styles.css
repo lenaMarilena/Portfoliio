@@ -157,6 +157,23 @@ div#contact {
   text-align: center;
 }
 
+.hero1 {
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 290px;
+}
+
+.hero2 {
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 1600px;
+}
 .col-md-6 {
   padding: 2px;
 }
