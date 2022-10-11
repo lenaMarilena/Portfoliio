@@ -158,3 +158,13 @@ footer {
 .logo1 {
   max-height: 55px;
 }
+
+.work {
+  text-align: center;
+  margin: 15px;
+}
+
+.card {
+  box-shadow: var(--box-shadow);
+  background-color: var(--secondary-color);
+}
