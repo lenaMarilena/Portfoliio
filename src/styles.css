@@ -169,6 +169,7 @@ div#contact {
   margin-bottom: 20px;
   text-align: center;
   margin-top: 290px;
+  padding: 30px;
 }
 
 .hero2 {
@@ -177,6 +178,7 @@ div#contact {
   margin-bottom: 20px;
   text-align: center;
   margin-top: 1600px;
+  padding: 30px;
 }
 
 .hero3 {
@@ -184,7 +186,8 @@ div#contact {
   flex-direction: column;
   margin-bottom: 20px;
   text-align: center;
-  margin-top: 1600px;
+  margin-top: 0px;
+  padding: 30px;
 }
 .col-md-6 {
   padding: 2px;
@@ -204,6 +207,9 @@ footer {
   max-height: 55px;
 }
 
+.logo4 {
+  max-height: 40px;
+}
 .work {
   text-align: center;
   margin: 15px;
@@ -217,4 +223,8 @@ footer {
 .contacto {
   color: var(--primary-color);
   font-size: 24px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 40;
 }
