@@ -152,8 +152,8 @@ p {
   .hero3 {
     display: none;
   }
-  footer {
-    display: none;
+  hero {
+    max-height: 100px;
   }
 }
 nav {
