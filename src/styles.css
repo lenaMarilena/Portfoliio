@@ -152,6 +152,9 @@ p {
   .hero3 {
     display: none;
   }
+  fixed-bottom {
+    display: none;
+  }
 }
 nav {
   position: relative;
