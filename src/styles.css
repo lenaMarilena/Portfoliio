@@ -152,9 +152,7 @@ p {
   .hero3 {
     display: none;
   }
-  hero {
-    max-height: 100px;
-  }
+
 }
 nav {
   position: relative;
