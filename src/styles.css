@@ -152,7 +152,6 @@ p {
   .hero3 {
     display: none;
   }
-
 }
 nav {
   position: relative;
@@ -186,7 +185,7 @@ div#contact {
   flex-direction: column;
   margin-bottom: 20px;
   text-align: center;
-  margin-top: 1600px;
+  margin-top: 3363px;
   padding: 30px;
 }
 
