@@ -37,6 +37,12 @@ h3 {
   opacity: 0.7;
 }
 
+h4 {
+  font-size: 42px;
+  padding-left: 70px;
+  font-family: var(--main-font-family);
+}
+
 p {
   background: var(--secondary-color);
   padding: 20px;
@@ -188,7 +194,6 @@ div#contact {
 }
 
 footer {
-  background-color: var(--secondary-color);
   display: block;
   font-size: 24px;
 }
@@ -249,7 +254,32 @@ a {
   font-family: var(--second-font-family);
 }
 
-h4 {
-  text-align: left;
-  background-color: aquamarine;
+.contact-box {
+  text-align: center;
+  background-color: var(--secondary-color);
+  padding-top: 10px;
+  border-radius: 10px;
+  margin-right: 13px;
+}
+
+.contact-link1 {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.contact-link1:hover {
+  background: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.navigation-links1 a {
+  margin: 20px 80px 30px 50px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: flex;
 }
