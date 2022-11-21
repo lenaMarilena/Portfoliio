@@ -101,20 +101,6 @@ p {
   margin: 10px;
 }
 
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
-  font-family: var(--second-font-family);
-}
-
-.email-link:hover {
-  text-decoration: underline;
-  color: violet;
-}
-
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -204,20 +190,42 @@ div#contact {
 footer {
   background-color: var(--secondary-color);
   display: block;
+  font-size: 24px;
 }
 
-.logo {
-  max-width: 60px;
-  max-height: 40px;
+.social-links a {
+  text-align: center;
+  font-size: 40px;
+  margin: 0 20px;
+  color: rgb(167, 68, 167);
 }
 
-.logo1 {
-  max-height: 55px;
+footer .social-links a:hover {
+  color: #f5f2fe;
+  background-color: rgb(167, 68, 167);
+  padding: 10px 24px;
+  border-radius: 50%;
+  font-size: 42px;
+  transition: all 100ms ease-in-out;
+  margin-bottom: 15px;
+}
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+  font-family: var(--second-font-family);
+  margin-top: 3px;
+  padding-top: 10px;
 }
 
-.logo4 {
-  max-height: 40px;
+.email-link:hover {
+  text-decoration: underline;
+  color: rgb(167, 68, 167);
+  transition: all 50ms ease-in-out;
 }
+
 .work {
   text-align: center;
   margin: 15px;
@@ -239,4 +247,9 @@ footer {
 
 a {
   font-family: var(--second-font-family);
+}
+
+h4 {
+  text-align: left;
+  background-color: aquamarine;
 }
